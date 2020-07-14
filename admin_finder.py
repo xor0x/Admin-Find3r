@@ -16,7 +16,7 @@ print("""
 """)
 parser = argparse.ArgumentParser()
 parser.add_argument('-u', '--url', help="Web site without http/https and www")
-parser.add_argument('-w', '--workers', default=5, help="Number of workers to use")
+parser.add_argument('-w', '--workers', default=5, type=int, help="Number of workers to use")
 args = parser.parse_args()
 url = args.url
 url = url.replace('https://', '')

@@ -1,5 +1,20 @@
 Admin-Find3r is tools for search page admin login website for fast
 
+##Requirements
+    Run on Windows, macOS or Linux.
+    Python 3 and Pip installed on it.
+## Installation and Setup
+    It's as easy as typing the below commands into your terminal.
+
+    # Clone my repo
+    git clone https://github.com/xor0x/Admin-Find3r.git
+    
+    # Move into the work directory.
+    cd Admin-Find3r
+    
+    # Install the requirements via Pip.
+    pip install -r requirements.txt
+
 ## Usage
 
     usage: admin_finder.py [-h] [-u URL] [-w WORKS]
@@ -10,8 +25,6 @@ Admin-Find3r is tools for search page admin login website for fast
       -w WORKERS, --workers WORKERS
                             Number of workers to use (default 5)
 
-
-Multi-threaded admin finder written in python
 
 
 Config
